@@ -67,7 +67,7 @@ const MenuComponent: React.FC<Props> = ({ tags }) => {
                       left: 0,
                       width: "100%",
                       height: "100%",
-                      background: `url(/me.JPG)`,
+                      background: `url(/icon.JPG)`,
                       backgroundSize: "cover",
                       backgroundPosition: "center",
                     }}
@@ -77,23 +77,30 @@ const MenuComponent: React.FC<Props> = ({ tags }) => {
               <div className={styles.me}>
                 <h3>Mike</h3>
                 <Link
-                  href="https://www.instagram.com/mike_travel0824/"
+                  href="https://www.instagram.com/mike_money_life/"
                   className={styles.instagram}
                 >
                   <FontAwesomeIcon icon={faInstagram} size="xs" />
                 </Link>
               </div>
               <p>
-                エンジニアをやりながら、
+                ・20代資産形成術を分かりやすく解説
                 <br />
-                暇な時間を見つけてよく海外旅行してます
+                ・経済学部出身×株式投資歴4年
+                <br />
+                ・20代会社員
+                <br />
+                ・新卒一年目で資産120万円達成！
+                <br />
+                ・株式投資、積立NISA、仮想通貨、FX
+                <br />
               </p>
             </div>
-            {/* 広告欄 */}
+            {/* 広告欄
             <div className={styles.adContent}>
               <h2>ピックアップ</h2>
               {parse(AD_CONTENT)}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

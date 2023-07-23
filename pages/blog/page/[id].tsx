@@ -49,7 +49,7 @@ const BlogPageId: React.FC<Props> = ({ blogs, tags, totalCount, id }) => {
   return (
     <div className="wrapper">
       <Head>
-        <title>Mike Travel Blog | {id}ページ目</title>
+        <title>Mike Money Life Blog | {id}ページ目</title>
         <meta name="description" content={COMMON_DESCRIPTION} />
         <meta
           name="viewport"
@@ -63,7 +63,7 @@ const BlogPageId: React.FC<Props> = ({ blogs, tags, totalCount, id }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image:width" content={"1280"} />
         <meta property="og:image:height" content={"640"} />
-        <link rel="icon" href="/me.JPG" />
+        <link rel="icon" href="/icon.JPG" />
       </Head>
       <Blogs blogs={blogs} totalCount={totalCount} currentPageId={id} />
       <Menu tags={tags} />

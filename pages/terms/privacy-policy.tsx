@@ -24,10 +24,10 @@ const PrivacyPolicy: React.FC<Props> = ({ tags }) => {
   return (
     <div className="wrapper">
       <Head>
-        <title>プライバシーポリシー -Mike Travel Blog-</title>
+        <title>プライバシーポリシー -Mike Money Life Blog-</title>
         <meta
           name="description"
-          content="Mike Travel Blogのプライバシーポリシーです。"
+          content="Mike Money Life Blogのプライバシーポリシーです。"
         />
         <meta
           name="viewport"
@@ -41,7 +41,7 @@ const PrivacyPolicy: React.FC<Props> = ({ tags }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image:width" content={"1280"} />
         <meta property="og:image:height" content={"640"} />
-        <link rel="icon" href="/me.JPG" />
+        <link rel="icon" href="/icon.JPG" />
       </Head>
       <PrivacyPost /> <Menu tags={tags} />
     </div>

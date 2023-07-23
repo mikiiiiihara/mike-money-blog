@@ -9,7 +9,7 @@ const FooterComponent = () => {
         <Link href="/terms/contact">お問い合わせ</Link>
         <br />
         <Link href="/terms/privacy-policy">プライバシーポリシー</Link>
-        <p>© 2023 Mike Travel Blog</p>
+        <p>© 2023 Mike Money Life Blog</p>
       </div>
     </div>
   );
