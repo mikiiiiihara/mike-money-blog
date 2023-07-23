@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./custom-post.module.scss";
 import parse from "html-react-parser";
 
-const body = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSftOoVYTa5glDZo4pzjvuGNsinuR9ZB495mIs1x1G64Xhxqlg/viewform?embedded=true" width="640" height="876" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>`;
+const body = `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeH2QS1ox-DAamCa3N3IAuc50E_z6tlUmO9yIAFgvqlf7HnSg/viewform?embedded=true" width="640" height="956" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>`;
 const ContactComponent = () => {
   return (
     <div className={styles.contact}>
