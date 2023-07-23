@@ -40,7 +40,7 @@ const Contact: React.FC<Props> = ({ tags }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image:width" content={"1280"} />
         <meta property="og:image:height" content={"640"} />
-        <link rel="icon" href="/me.jpg" />
+        <link rel="icon" href="/me.JPG" />
       </Head>
       <ContactPost />
     </div>

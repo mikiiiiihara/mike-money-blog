@@ -67,7 +67,7 @@ const MenuComponent: React.FC<Props> = ({ tags }) => {
                       left: 0,
                       width: "100%",
                       height: "100%",
-                      background: `url(/me.jpg)`,
+                      background: `url(/me.JPG)`,
                       backgroundSize: "cover",
                       backgroundPosition: "center",
                     }}
