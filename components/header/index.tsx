@@ -9,8 +9,8 @@ const HeaderComponent = () => {
       <Link href="/">
         <div className={styles.imageWrapper}>
           <Image
-            src="/header.png"
-            width={820} // 元の画像の実際の幅を指定
+            src="/logo.png"
+            width={300} // 元の画像の実際の幅を指定
             height={200} // 元の画像の実際の高さを指定
             priority
             style={{ position: "relative" }}
