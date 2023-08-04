@@ -1,0 +1,23 @@
+.profile {
+  text-align: center;
+  background: white;
+  box-sizing: border-box;
+  padding: 0.8rem;
+  border: 0.5px solid #d3d3d3;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+  margin: 0.8rem;
+  .me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > h3 {
+      margin-right: 6px;
+      margin-top: 6px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.instagram {
+  width: 20px;
+}
