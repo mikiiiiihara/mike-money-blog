@@ -80,6 +80,11 @@ a {
   font-weight: bold;
 }
 
+.reference {
+  font-size: 0.3rem;
+  color: gray;
+}
+
 /* 吹き出し用 */
 .comment {
   display: flex;
