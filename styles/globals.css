@@ -156,12 +156,26 @@ a {
   margin: 0 auto;
   text-align: center;
 }
+
+.banner-click-button-secondary {
+  background-color: #b33e3e;
+  display: block;
+  width: 200px;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0.6rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
-  .banner-click-button-primary {
+  .banner-click-button-primary,
+  .banner-click-button-secondary {
     width: 90%;
   }
 }
 
-.banner-click-button-primary:hover {
+.banner-click-button-primary:hover,
+.banner-click-button-secondary:hover {
   opacity: 0.6;
 }
