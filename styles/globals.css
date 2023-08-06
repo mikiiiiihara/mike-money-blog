@@ -58,21 +58,21 @@ a {
   border-left: 6px solid #0066cc;
   background-color: #e5f2ff;
   border-radius: 4px;
-  padding: 1.6rem;
+  padding: 0.6rem 1.6rem;
   line-height: 2rem;
 }
 .sticky-danger {
   border-left: 6px solid #cc0000;
   background-color: #ffe5e5;
   border-radius: 4px;
-  padding: 1.6rem;
+  padding: 0.6rem 1.6rem;
   line-height: 2rem;
 }
 .sticky-warn {
   border-left: 6px solid #cc9900;
   background-color: #fffee5;
   border-radius: 4px;
-  padding: 1.6rem;
+  padding: 0.6rem 1.6rem;
   line-height: 2rem;
 }
 
@@ -92,15 +92,15 @@ a {
   vertical-align: top;
 }
 .icon {
-  width: 100px;
+  width: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .icon > img {
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
 }
 .icon > p {
@@ -108,7 +108,7 @@ a {
 }
 .comment .icon {
   /* 必要に応じて余白、サイズなどを調整 */
-  margin-right: 10px; /* 右側の余白 */
+  margin-right: 4px; /* 右側の余白 */
 }
 @media (max-width: 768px) {
   .comment {
@@ -132,7 +132,8 @@ a {
 
 @media (max-width: 768px) {
   .comment > p {
-    max-width: 64%;
+    max-width: 75%;
+    font-size: 0.99rem;
   }
 }
 
@@ -178,4 +179,9 @@ a {
 .banner-click-button-primary:hover,
 .banner-click-button-secondary:hover {
   opacity: 0.6;
+}
+
+.title-border {
+  border-top: 2px solid #005488;
+  border-bottom: 2px solid #005488;
 }
