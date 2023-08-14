@@ -56,7 +56,9 @@ const Home: React.FC<Props> = ({ blog, tags }) => {
         <meta property="og:image:height" content={"640"} />
         <link rel="icon" href="/icon.JPG" />
       </Head>
-      <Post blog={blog} /> <Menu tags={tags} />
+      <Post blog={blog} />
+      {/* TODO: 記事が充実してきたら復活させる */}
+      {/* <Menu tags={tags} /> */}
     </div>
   );
 };

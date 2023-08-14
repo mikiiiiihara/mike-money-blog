@@ -66,7 +66,8 @@ const BlogPageId: React.FC<Props> = ({ blogs, tags, totalCount, id }) => {
         <link rel="icon" href="/icon.JPG" />
       </Head>
       <Blogs blogs={blogs} totalCount={totalCount} currentPageId={id} />
-      <Menu tags={tags} />
+      {/* TODO: 記事が充実してきたら復活させる */}
+      {/* <Menu tags={tags} /> */}
     </div>
   );
 };

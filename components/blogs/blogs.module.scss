@@ -1,6 +1,8 @@
 .blogs {
   margin-right: auto;
-  width: 70%;
+  // TODO: メニュー復活時70%にする
+  // width: 70%;
+  width: 100%;
   vertical-align: top;
   box-sizing: border-box;
   margin-bottom: 1rem;
@@ -17,7 +19,9 @@
     border-radius: 0.8rem;
     margin: 0.6rem;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
-    width: 42%;
+    // TODO: メニュー復活時42%にする
+    // width: 42%;
+    width: 47%;
     > a {
       text-decoration: none;
     }

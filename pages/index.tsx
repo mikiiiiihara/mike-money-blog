@@ -51,7 +51,8 @@ const Home: React.FC<Props> = ({ blogs, tags, totalCount }) => {
         <link rel="icon" href="/icon.JPG" />
       </Head>
       <Blogs blogs={blogs} totalCount={totalCount} currentPageId={1} />
-      <Menu tags={tags} />
+      {/* TODO: 記事が充実してきたら復活させる */}
+      {/* <Menu tags={tags} /> */}
     </div>
   );
 };

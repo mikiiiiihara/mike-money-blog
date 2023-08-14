@@ -43,7 +43,9 @@ const PrivacyPolicy: React.FC<Props> = ({ tags }) => {
         <meta property="og:image:height" content={"640"} />
         <link rel="icon" href="/icon.JPG" />
       </Head>
-      <PrivacyPost /> <Menu tags={tags} />
+      <PrivacyPost />
+      {/* TODO: 記事が充実してきたら復活させる */}
+      {/* <Menu tags={tags} /> */}
     </div>
   );
 };
