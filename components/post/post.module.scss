@@ -5,7 +5,7 @@
   display: inline-block;
   box-sizing: border-box;
   padding: 0.8rem;
-  margin: 1rem;
+  margin: 1rem auto;
   border: 0.5px solid #d3d3d3;
   border-radius: 0.8rem;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
@@ -41,7 +41,7 @@
     }
   }
   @media (max-width: 768px) {
-    width: 92%;
+    width: 98%;
   }
   .title {
     margin-bottom: 20px;

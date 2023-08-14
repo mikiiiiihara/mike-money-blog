@@ -185,3 +185,10 @@ a {
   border-top: 2px solid #005488;
   border-bottom: 2px solid #005488;
 }
+th {
+  background-color: #005488;
+  color: white;
+}
+td {
+  background-color: #f3f5f8;
+}
