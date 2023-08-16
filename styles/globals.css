@@ -192,3 +192,8 @@ th {
 td {
   background-color: #f3f5f8;
 }
+
+.ex-large-text {
+  font-size: 3.6rem;
+  text-align: center;
+}
