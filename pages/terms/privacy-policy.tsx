@@ -1,26 +1,7 @@
-import { client } from "../../libs/client";
-import { Tag } from "../../types/blog";
-import { Menu } from "../../components/menu";
 import Head from "next/head";
 import { PrivacyPost } from "../../components/custom-post/privacy-post";
 
-// SSG
-// microCMSへAPIリクエスト
-export const getStaticProps = async () => {
-  const tag = await client.get({ endpoint: "tag" });
-  return {
-    props: {
-      tags: tag.contents,
-    },
-  };
-};
-
-// Propsの型
-type Props = {
-  tags: Tag[];
-};
-
-const PrivacyPolicy: React.FC<Props> = ({ tags }) => {
+const PrivacyPolicy = () => {
   return (
     <div className="wrapper">
       <Head>
@@ -33,10 +14,10 @@ const PrivacyPolicy: React.FC<Props> = ({ tags }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes"
         />
-        <meta property="og:image" content="/ogp.png" />
+        <meta property="og:image" content="/my-ogp.png" />
         <meta
           name="twitter:image"
-          content="https://mike-travel-blog.com/ogp.png"
+          content="https://mike-travel-blog.com/my-ogp.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image:width" content={"1280"} />
@@ -44,8 +25,6 @@ const PrivacyPolicy: React.FC<Props> = ({ tags }) => {
         <link rel="icon" href="/icon.JPG" />
       </Head>
       <PrivacyPost />
-      {/* TODO: 記事が充実してきたら復活させる */}
-      {/* <Menu tags={tags} /> */}
     </div>
   );
 };

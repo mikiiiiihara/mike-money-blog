@@ -29,6 +29,7 @@ a {
 
 .wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding-bottom: 2rem;
 }

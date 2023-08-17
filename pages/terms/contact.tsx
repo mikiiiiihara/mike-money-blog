@@ -1,25 +1,7 @@
-import { client } from "../../libs/client";
-import { Tag } from "../../types/blog";
 import Head from "next/head";
 import { ContactPost } from "../../components/custom-post/contact";
 
-// SSG
-// microCMSへAPIリクエスト
-export const getStaticProps = async () => {
-  const tag = await client.get({ endpoint: "tag" });
-  return {
-    props: {
-      tags: tag.contents,
-    },
-  };
-};
-
-// Propsの型
-type Props = {
-  tags: Tag[];
-};
-
-const Contact: React.FC<Props> = ({ tags }) => {
+const Contact = () => {
   return (
     <div className="wrapper">
       <Head>
@@ -32,10 +14,10 @@ const Contact: React.FC<Props> = ({ tags }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes"
         />
-        <meta property="og:image" content="/ogp.png" />
+        <meta property="og:image" content="/my-ogp.png" />
         <meta
           name="twitter:image"
-          content="https://mike-travel-blog.com/ogp.png"
+          content="https://mike-travel-blog.com/my-ogp.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image:width" content={"1280"} />

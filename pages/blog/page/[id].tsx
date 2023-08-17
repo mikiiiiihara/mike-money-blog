@@ -1,9 +1,9 @@
 import { client } from "../../../libs/client";
 import { Blog, Tag } from "../../../types/blog";
 import { COMMON_DESCRIPTION, PER_PAGE } from "../../../constants/constants";
-import { Menu } from "../../../components/menu";
 import { Blogs } from "../../../components/blogs";
 import Head from "next/head";
+import { TagMenu } from "../../../components/tag-menu";
 
 // 動的なページを作成
 export const getStaticPaths = async () => {
@@ -55,10 +55,10 @@ const BlogPageId: React.FC<Props> = ({ blogs, tags, totalCount, id }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes"
         />
-        <meta property="og:image" content="/ogp.png" />
+        <meta property="og:image" content="/my-ogp.png" />
         <meta
           name="twitter:image"
-          content="https://mike-travel-blog.com/ogp.png"
+          content="https://mike-travel-blog.com/my-ogp.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image:width" content={"1280"} />
@@ -66,8 +66,7 @@ const BlogPageId: React.FC<Props> = ({ blogs, tags, totalCount, id }) => {
         <link rel="icon" href="/icon.JPG" />
       </Head>
       <Blogs blogs={blogs} totalCount={totalCount} currentPageId={id} />
-      {/* TODO: 記事が充実してきたら復活させる */}
-      {/* <Menu tags={tags} /> */}
+      <TagMenu tags={tags} />
     </div>
   );
 };

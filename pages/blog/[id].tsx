@@ -1,9 +1,9 @@
 import { client } from "../../libs/client";
 import { Blog, Tag } from "../../types/blog";
 import { Post } from "../../components/post";
-import { Menu } from "../../components/menu";
 import Head from "next/head";
 import { COMMON_DESCRIPTION } from "../../constants/constants";
+import { TagMenu } from "../../components/tag-menu";
 
 // SSG
 // microCMSへAPIリクエスト
@@ -57,8 +57,7 @@ const Home: React.FC<Props> = ({ blog, tags }) => {
         <link rel="icon" href="/icon.JPG" />
       </Head>
       <Post blog={blog} />
-      {/* TODO: 記事が充実してきたら復活させる */}
-      {/* <Menu tags={tags} /> */}
+      <TagMenu tags={tags} />
     </div>
   );
 };
