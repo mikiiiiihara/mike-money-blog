@@ -87,8 +87,13 @@
       list-style-position: inside;
     }
     > figure img {
-      max-width: 100%;
+      max-width: 76%;
       height: auto;
+      margin: auto;
+      display: block;
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
     }
   }
   @media (max-width: 768px) {
