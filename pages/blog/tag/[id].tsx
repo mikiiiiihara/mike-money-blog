@@ -68,7 +68,7 @@ const TagId: React.FC<Props> = ({
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image:width" content={"1280"} />
         <meta property="og:image:height" content={"640"} />
-        <link rel="icon" href="/icon.JPG" />
+        <link rel="icon" href="/icon.jpeg" />
       </Head>
       <Blogs blogs={blogs} totalCount={totalCount} currentPageId={id} />
       <TagMenu tags={tags} />

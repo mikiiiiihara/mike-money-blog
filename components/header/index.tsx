@@ -9,7 +9,7 @@ const HeaderComponent = () => {
       <Link href="/">
         <div className={styles.imageWrapper}>
           <Image
-            src="/my-logo.png"
+            src="/my-logo.jpeg"
             width={300} // 元の画像の実際の幅を指定
             height={200} // 元の画像の実際の高さを指定
             priority

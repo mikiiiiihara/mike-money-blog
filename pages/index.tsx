@@ -48,7 +48,7 @@ const Home: React.FC<Props> = ({ blogs, tags, totalCount }) => {
         <meta property="og:image" content="/my-ogp.png" />
         <meta property="og:image:width" content={"1280"} />
         <meta property="og:image:height" content={"640"} />
-        <link rel="icon" href="/icon.JPG" />
+        <link rel="icon" href="/icon.jpeg" />
       </Head>
       <Blogs blogs={blogs} totalCount={totalCount} currentPageId={1} />
       <TagMenu tags={tags} />

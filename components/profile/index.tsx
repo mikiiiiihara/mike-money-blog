@@ -32,7 +32,7 @@ const ProfileComponent = () => {
               left: 0,
               width: "100%",
               height: "100%",
-              background: `url(/icon.JPG)`,
+              background: `url(/icon.jpeg)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
